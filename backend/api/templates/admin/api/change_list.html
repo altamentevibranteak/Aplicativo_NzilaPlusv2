@@ -1,0 +1,13 @@
+{% extends "admin/change_list.html" %}
+{% load i18n static %}
+
+{% block content_title %}
+    {{ block.super }}
+    <div style="background: #28a745; color: white; padding: 15px; border-radius: 8px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; font-family: sans-serif;">
+        <div>
+            <h3 style="margin: 0; font-size: 0.9rem; opacity: 0.9;">Lucro Total Nzila Plus (5%)</h3>
+            <h1 style="margin: 0; font-size: 1.8rem; font-weight: bold;">{{ lucro_total_nzila }}</h1>
+        </div>
+        <div style="font-size: 2.5rem; opacity: 0.3;">💰</div>
+    </div>
+{% endblock %}

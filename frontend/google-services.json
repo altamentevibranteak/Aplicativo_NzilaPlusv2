@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "133646839588",
+    "project_id": "nzilaplus",
+    "storage_bucket": "nzilaplus.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133646839588:android:7e3f8ac7d60606d5550db1",
+        "android_client_info": {
+          "package_name": "com.andrekumbodev.MeuApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133646839588-qkdbou1s0cs9ljlgrk3cnt5jgj2f63e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa5HR1Z8m-GlP5bxogz5zrdVhZoHDomvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133646839588-qkdbou1s0cs9ljlgrk3cnt5jgj2f63e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133646839588:android:ceccdb9168c60d6f550db1",
+        "android_client_info": {
+          "package_name": "com.andrekumbodev.ZnilaPlus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133646839588-qkdbou1s0cs9ljlgrk3cnt5jgj2f63e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa5HR1Z8m-GlP5bxogz5zrdVhZoHDomvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133646839588-qkdbou1s0cs9ljlgrk3cnt5jgj2f63e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

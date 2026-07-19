@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Ambientes e Segredos
+.env
+
+testes.txt
+samorai_final.html
+
+
+backend/.venv/
+backend/ venv/
+*.pyc
