@@ -24,7 +24,11 @@ SECRET_KEY = os.environ.get(
 
 DEBUG = os.environ.get('DJANGO_DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['192.168.237.184', '192.168.43.195', '192.168.199.184', '192.168.0.98', '127.0.0.1', 'localhost', '*']
+ALLOWED_HOSTS = ['192.168.0.98', 'localhost', '*', 'aplicativo-nzilaplusv2.onrender.com']
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://aplicativo-nzilaplusv2.onrender.com",
+]
 
 
 # Application definition
@@ -148,7 +152,6 @@ STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 CORS_ALLOW_ALL_ORIGINS = True  # Permite que o frontend se ligue
-ALLOWED_HOSTS = ['*']          # Permite que o Codespaces rode o servidor abertamente
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
@@ -184,3 +187,4 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 AUTHENTICATION_BACKENDS = [
     'api.backends.EmailOrUsernameBackend',
 ]
+
