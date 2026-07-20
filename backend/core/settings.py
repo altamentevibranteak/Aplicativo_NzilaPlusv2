@@ -188,3 +188,5 @@ AUTHENTICATION_BACKENDS = [
     'api.backends.EmailOrUsernameBackend',
 ]
 
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
