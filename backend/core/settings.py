@@ -173,11 +173,13 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 ASGI_APPLICATION = 'core.asgi.application'
 
+REDIS_URL = os.environ.get("REDIS_URL", "redis://red-d9ggqmurnols73cn5sig:6379")
+
 CHANNEL_LAYERS = {
-    'default': {
-        'BACKEND': 'channels_redis.core.RedisChannelLayer',
-        'CONFIG': {
-            'hosts': [('127.0.0.1', 6379)],
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [REDIS_URL],
         },
     },
 }
